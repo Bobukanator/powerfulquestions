@@ -11,6 +11,270 @@
     {
       "question": "Where do we go from here?",
       "tags": "action"
+    },
+    {
+      "question": "What are you afraid of?",
+      "tags": "fear"
+    },
+    {
+      "question": "Who can get you that answer?",
+      "tags": "probing"
+    },
+    {
+      "question": "How would you summarize the effort so far?",
+      "tags": "probing"
+    },
+    {
+      "question": "What seems to be the main obstacle?",
+      "tags": "probing"
+    },
+    {
+      "question": "What will you take away from this situation?",
+      "tags": "probing"
+    },
+    {
+      "question": "How do you know you will do it, until you do it?",
+      "tags": "probing"
+    },
+    {
+      "question": "How can you give your power and energy to the solution?",
+      "tags": "probing"
+    },
+    {
+      "question": "What resources do you need to help you decide?",
+      "tags": "probing"
+    },
+    {
+      "question": "What bold action could you take?",
+      "tags": "probing"
+    },
+    {
+      "question": "What do you need to make a decision?",
+      "tags": "probing"
+    },
+    {
+      "question": "How do you suppose you can find out more about it?",
+      "tags": "probing"
+    },
+    {
+      "question": "What kind of plan do you need to create?",
+      "tags": "probing"
+    },
+    {
+      "question": "If you were faced with the same situation again, what would you do?",
+      "tags": "probing"
+    },
+    {
+      "question": "If you could start over, what would you do?",
+      "tags": "probing"
+    },
+    {
+      "question": "What might happen?",
+      "tags": "probing"
+    },
+    {
+      "question": "What options haven't you considered?",
+      "tags": "probing"
+    },
+    {
+      "question": "What do you need?",
+      "tags": "probing"
+    },
+    {
+      "question": "What options can you create?",
+      "tags": "probing"
+    },
+    {
+      "question": "What seems to confuse you?",
+      "tags": "probing"
+    },
+    {
+      "question": "If you had a blank page, what would you write?",
+      "tags": "probing"
+    },
+    {
+      "question": "How else can we handle this?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is your backup plan?",
+      "tags": "probing"
+    },
+    {
+      "question": "How will you know you have reached it?",
+      "tags": "probing"
+    },
+    {
+      "question": "What if it doesn't work out the way that you hope?",
+      "tags": "probing"
+    },
+    {
+      "question": "What do you think is missing?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is currently motivating you?",
+      "tags": "probing"
+    },
+    {
+      "question": "What haven't you considered yet?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is your role in that?",
+      "tags": "probing"
+    },
+    {
+      "question": "What haven't you done yet?",
+      "tags": "probing"
+    },
+    {
+      "question": "What's it going to take...?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is the lesson you could take out of this?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is the worst possible outcome that could occur if you make this decision?",
+      "tags": "probing"
+    },
+    {
+      "question": "What are the risks if you do and if you do not?",
+      "tags": "probing"
+    },
+    {
+      "question": "What one thing could you do in this situation that scares you?",
+      "tags": "fear"
+    },
+    {
+      "question": "How can you have it be fun?",
+      "tags": "probing"
+    },
+    {
+      "question": "What support do you need to accomplish this?",
+      "tags": "probing"
+    },
+    {
+      "question": "What resources are available to you?",
+      "tags": "probing"
+    },
+    {
+      "question": "What if it doesn't work?",
+      "tags": "probing"
+    },
+    {
+      "question": "What are your other options? ",
+      "tags": "probing"
+    },
+    {
+      "question": "What are the 3 steps to achieve that?",
+      "tags": "probing"
+    },
+    {
+      "question": "What are you tolerating?",
+      "tags": "probing"
+    },
+    {
+      "question": "How can I be most helpful to you right now?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is your strategy for that?",
+      "tags": "probing"
+    },
+    {
+      "question": "What do you most need right now?",
+      "tags": "probing"
+    },
+    {
+      "question": "What will you commit to?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is the bigger game for you?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is the impact you want?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is not yet clear?",
+      "tags": "probing"
+    },
+    {
+      "question": "What will get in the way?",
+      "tags": "probing"
+    },
+    {
+      "question": "What haven't you tried so far?",
+      "tags": "probing"
+    },
+    {
+      "question": "Who could you talk to that could help with the issue?",
+      "tags": "probing"
+    },
+    {
+      "question": "What could be your next step?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is the truth here?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is your desired outcome?",
+      "tags": "probing"
+    },
+    {
+      "question": "What do you really want?",
+      "tags": "probing"
+    },
+    {
+      "question": "How has that worked in the past?",
+      "tags": "probing"
+    },
+    {
+      "question": "What is just one more possibility?",
+      "tags": "probing"
+    },
+    {
+      "question": "If you couldn't fail, what would you do?",
+      "tags": "probing"
+    },
+    {
+      "question": "Is there another way to look at it?",
+      "tags": "probing"
+    },
+    {
+      "question": "How will you measure your success?",
+      "tags": "probing"
+    },
+    {
+      "question": "What if you do nothing?",
+      "tags": "probing"
+    },
+    {
+      "question": "What are you willing to do differently?",
+      "tags": "probing"
+    },
+    {
+      "question": "Where might you get stopped?",
+      "tags": "probing"
+    },
+    {
+      "question": "What are you avoiding?",
+      "tags": "probing"
+    },
+    {
+      "question": "What have you tried so far?",
+      "tags": "probing"
+    },
+    {
+      "question": "How's that working for you? ~Dr Phil",
+      "tags": "probing"
     }
   ]
 }
