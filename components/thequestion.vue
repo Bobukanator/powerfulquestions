@@ -1,9 +1,11 @@
 <template>
-  <div class="columns is-centered">
-    <div class="column is 8 has-text-centered">
-      <p class="content is-large">{{ question }}</p>
+  <section class="section">
+    <div class="columns is-centered">
+      <div class="column is 8 has-text-centered">
+        <p class="content is-large">{{ question }}</p>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

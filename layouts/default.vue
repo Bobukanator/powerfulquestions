@@ -1,15 +1,6 @@
 <template>
-  <section>
-    <div class="columns is-centered notification is-primary">
-      <div class="column is-3">
-        <b-image
-          :src="require('@/assets/Powerful Questions-logos.jpeg')"
-          alt="The Powerful Questions logo"
-          class="is-small"
-        ></b-image>
-      </div>
-    </div>
-    <div class="container column is-10">
+  <div>
+    <div class="hero">
       <Nuxt />
     </div>
     <footer class="footer">
@@ -18,9 +9,10 @@
         <a href="https://twitter.com/PwrfulQuestions"
           ><b-icon icon="twitter" size="is-large" type="is-dark"
         /></a>
+        <p><NuxtLink to="/privacy">Privacy Policy</NuxtLink></p>
       </div>
     </footer>
-  </section>
+  </div>
 </template>
 
 <script>
