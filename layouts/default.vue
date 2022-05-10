@@ -10,6 +10,7 @@
           ><b-icon icon="twitter" size="is-large" type="is-dark"
         /></a>
         <p><NuxtLink to="/privacy">Privacy Policy</NuxtLink></p>
+        <p><NuxtLink to="/about">About</NuxtLink></p>
       </div>
     </footer>
   </div>
