@@ -4,7 +4,7 @@
       <div class="columns is-centered notification is-primary">
         <div class="column is-3" @click="reloadquestion()">
           <b-image
-            :src="require('@/assets/Powerful Questions-logos.jpeg')"
+            :src="require('@/static/images/Powerful Questions-logos.jpeg')"
             alt="The Powerful Questions logo"
             class="is-small"
           ></b-image>
