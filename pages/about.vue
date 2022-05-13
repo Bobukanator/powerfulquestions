@@ -27,8 +27,7 @@
             questions from anywhere I could find them.
           </p>
           <p>
-            This site is a refresh of those powerful questions recreated for the booming 20s. The only purpose is to
-            help other inspiring coaches by making these questions available to you. If you want to contribute your own
+            This site is a refresh of those powerful questions recreated for the booming 20s with the sole purpose of helping aspiring coaches. We believe asking the right question at the right time can make all the difference. If you want to contribute your own
             powerful questions, simply tweet us using the button below.
           </p>
           <center><a href="https://twitter.com/intent/tweet?screen_name=PwrfulQuestions&ref_src=twsrc%5Etfw"
