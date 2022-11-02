@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "test": "jest --coverage=false"
   },
   "dependencies": {
     "core-js": "^3.19.3",

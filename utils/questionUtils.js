@@ -16,3 +16,8 @@ export function randomizeQuestions(questionsArray) {
 export function getRandomQuestion(questionArray) {
   return questionArray[Math.floor(Math.random() * questionArray.length)];
 }
+
+export function randomizeQuestionsByTag(questionsArray, tag) {
+  const arrayByTag = questionsArray.filter(question => question.tags.includes(tag))
+  return randomizeQuestions(arrayByTag)
+}
