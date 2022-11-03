@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils'
 import TheQuestion from '@/components/thequestion.vue'
 import { randomizeQuestions, getRandomQuestion, randomizeQuestionsByTag } from '../utils/questionUtils'
-import questionData from "~/static/questions.json";
+import questionData from "../utils/questions.json";
 
 describe('Question', () => {
   test('is a Vue instance', () => {

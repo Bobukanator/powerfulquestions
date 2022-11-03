@@ -2,7 +2,7 @@
   <section>
     <NuxtLink to="/">
       <div class="columns is-centered notification is-primary">
-        <div class="column is-3" @click="reloadquestion()">
+        <div class="column is-3" @click="getRandomInterviewQuestion()">
           <b-image
             :src="require('@/static/images/Powerful Questions-logos.jpeg')"
             alt="The Powerful Questions logo"
@@ -11,27 +11,31 @@
         </div>
       </div>
     </NuxtLink>
-    <thequestion :question="question"></thequestion>
+    <div v-if="question != ''">
+      <thequestion :question="question"></thequestion>
+    </div>
   </section>
 </template>
 
 <script>
 import thequestion from "~/components/thequestion";
-import questionData from "~/static/questions.json";
-import { getRandomQuestion } from "../utils/questionUtils";
 
 export default {
   name: "MainPage",
   components: {
     thequestion,
   },
-  async asyncData() {
-    const question = await getRandomQuestion(questionData.questions).question;
-    return { question };
+  data() {
+    return {
+      question: "",
+    };
+  },
+  mounted() {
+    this.getRandomInterviewQuestion();
   },
   methods: {
-    reloadquestion() {
-      this.question = getRandomQuestion(questionData.questions).question;
+    async getRandomInterviewQuestion() {
+      this.question = await this.$dataApi.getRandomInterviewQuestion();
     },
   },
 };
