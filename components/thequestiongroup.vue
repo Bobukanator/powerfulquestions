@@ -1,8 +1,12 @@
 <template>
   <section class="section">
     <div class="columns is-centered">
-      <div class="column is 8 has-text-centered">
-        <p class="content is-large">{{ question }}</p>
+      <div
+        class="column is-one-third-fullhd is-half-desktop is-two-thirds-tablet"
+      >
+        <div v-for="question in questions">
+          <p class="content is-large">{{ question.question }}</p>
+        </div>
       </div>
     </div>
   </section>

@@ -279,6 +279,30 @@
     {
       "question": "How committed are you to take action?",
       "tags": "probing, goal"
+    },
+    {
+      "question": "What would you like to focus on?",
+      "tags": "probing, goal"
+    },
+    {
+      "question": "What is the goal you want help with?",
+      "tags": "probing, goal"
+    },
+    {
+      "question": "What are the benefits of hitting this goal?",
+      "tags": "probing, goal"
+    },
+    {
+      "question": "What is your goal for this session?",
+      "tags": "probing, goal"
+    },
+    {
+      "question": "Can you provide an example?",
+      "tags": "probing, reality"
+    },
+    {
+      "question": "What are the perspectives of any other people involved?",
+      "tags": "probing, reality"
     }
   ]
 }

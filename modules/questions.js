@@ -1,6 +1,6 @@
 import bodyParser from 'body-parser'
-import questionData from "../utils/questions.json";
-import { getRandomQuestion } from "../utils/questionUtils";
+import QUESTION_DATA from "../utils/questions.json";
+import { getRandomQuestion, randomizeQuestionsByTag } from "../utils/questionUtils";
 
 export default function () {
 
@@ -8,6 +8,7 @@ export default function () {
     app.use(bodyParser.json());
     app.use('/api/getinterviewquestions', getInterviewQuestions);
     app.use('/api/getrandominterviewquestion', getRandomInterviewQuestion);
+    app.use('/api/getrandomquestionsbytag', getRandomInterviewQuestionsByTag);
   })
 
   async function getInterviewQuestions(req, res) {
@@ -17,7 +18,7 @@ export default function () {
       return rejectHitBadRequest(res)
     }
 
-    const response = questionData;
+    const response = QUESTION_DATA;
     sendJSON(response, res);
   }
 
@@ -28,8 +29,19 @@ export default function () {
       return rejectHitBadRequest(res)
     }
 
-    const response = await getRandomQuestion(questionData.questions).question;
+    const response = getRandomQuestion(QUESTION_DATA.questions).question;
     sendJSON(response, res);
+  }
+
+  async function getRandomInterviewQuestionsByTag(req, res) {
+
+    const body = req.body;
+    if (!body || !body.tag || !body.numberOfQuestions) {
+      return rejectHitBadRequest(res)
+    }
+
+    const response = randomizeQuestionsByTag(QUESTION_DATA.questions, body.tag);
+    sendJSON(response.slice(0, parseInt(body.numberOfQuestions)), res);
   }
 
   function sendJSON(data, res) {

@@ -44,7 +44,7 @@ describe('Question randomizeQuestionsByTag', () => {
   as new questions are added to questions.json*/
   test('works correctly with goal!', () => {
 
-    const numberOfGoalQuestions = 11;
+    const numberOfGoalQuestions = 15;
     const testArray = questionData.questions
     const actual = randomizeQuestionsByTag(testArray, "goal")
     expect(actual[0]).toHaveProperty('question')
@@ -55,7 +55,7 @@ describe('Question randomizeQuestionsByTag', () => {
   })
   test('works correctly with reality!', () => {
 
-    const numberOfRealityQuestions = 22;
+    const numberOfRealityQuestions = 24;
     const testArray = questionData.questions
     const actual = randomizeQuestionsByTag(testArray, "reality")
     expect(actual[0]).toHaveProperty('question')
