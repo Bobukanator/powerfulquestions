@@ -23,7 +23,7 @@ export default {
   plugins: ['~/plugins/dataApi', '~/plugins/gs.client'],
   buildModules: [
   ],
-  modules: ['nuxt-buefy', "~/modules/questions"],
+  modules: ['nuxt-buefy', "~/modules/questions", "~/modules/testAPI"],
   build: {
     extractCSS: true,
     loaders: {
