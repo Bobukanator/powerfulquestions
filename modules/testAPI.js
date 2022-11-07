@@ -4,6 +4,7 @@ export default function () {
 
   this.nuxt.hook('render:setupMiddleware', (app) => {
     app.use(bodyParser.json());
+    app.use('/api/test', testAPI);
 
   })
 
