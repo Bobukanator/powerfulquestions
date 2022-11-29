@@ -6,44 +6,55 @@
       </div>
     </NuxtLink>
     <section v-if="goalQuestions.length > 0">
-      <div class="columns is-centered notification is-secondary">
-        <div class="column has-text-centered is-3" @click="getGoalQuestions()">
-          <h2 class="title">Goal</h2>
+      <NuxtLink to="/grow">
+        <div class="columns is-centered notification is-secondary">
+          <div
+            class="column has-text-centered is-3"
+            @click="getGoalQuestions()"
+          >
+            <h2 class="title">Goal</h2>
+          </div>
         </div>
-      </div>
+      </NuxtLink>
       <thequestiongroup :questions="goalQuestions"></thequestiongroup>
     </section>
     <section v-if="realityQuestions.length > 0">
-      <div class="columns is-centered notification is-secondary">
-        <div
-          class="column has-text-centered is-3"
-          @click="getRealityQuestions()"
-        >
-          <h2 class="title">Reality</h2>
+      <NuxtLink to="/grow">
+        <div class="columns is-centered notification is-secondary">
+          <div
+            class="column has-text-centered is-3"
+            @click="getRealityQuestions()"
+          >
+            <h2 class="title">Reality</h2>
+          </div>
         </div>
-      </div>
+      </NuxtLink>
       <thequestiongroup :questions="realityQuestions"></thequestiongroup>
     </section>
     <section v-if="optionsQuestions.length > 0">
-      <div class="columns is-centered notification is-secondary">
-        <div
-          class="column has-text-centered is-3"
-          @click="getOptionsQuestions()"
-        >
-          <h2 class="title">Options</h2>
+      <NuxtLink to="/grow">
+        <div class="columns is-centered notification is-secondary">
+          <div
+            class="column has-text-centered is-3"
+            @click="getOptionsQuestions()"
+          >
+            <h2 class="title">Options</h2>
+          </div>
         </div>
-      </div>
+      </NuxtLink>
       <thequestiongroup :questions="optionsQuestions"></thequestiongroup>
     </section>
     <section v-if="actionQuestions.length > 0">
-      <div class="columns is-centered notification is-secondary">
-        <div
-          class="column has-text-centered is-3"
-          @click="getActionQuestions()"
-        >
-          <h2 class="title">Action</h2>
+      <NuxtLink to="/grow">
+        <div class="columns is-centered notification is-secondary">
+          <div
+            class="column has-text-centered is-3"
+            @click="getActionQuestions()"
+          >
+            <h2 class="title">Will</h2>
+          </div>
         </div>
-      </div>
+      </NuxtLink>
       <thequestiongroup :questions="actionQuestions"></thequestiongroup>
     </section>
   </section>
