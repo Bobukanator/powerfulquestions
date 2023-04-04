@@ -44,7 +44,7 @@ describe('Question randomizeQuestionsByTag', () => {
   as new questions are added to questions.json*/
   test('works correctly with goal!', () => {
 
-    const numberOfGoalQuestions = 15;
+    const numberOfGoalQuestions = 19;
     const testArray = questionData.questions
     const actual = randomizeQuestionsByTag(testArray, "goal")
     expect(actual[0]).toHaveProperty('question')
@@ -55,7 +55,7 @@ describe('Question randomizeQuestionsByTag', () => {
   })
   test('works correctly with reality!', () => {
 
-    const numberOfRealityQuestions = 24;
+    const numberOfRealityQuestions = 31;
     const testArray = questionData.questions
     const actual = randomizeQuestionsByTag(testArray, "reality")
     expect(actual[0]).toHaveProperty('question')
@@ -66,7 +66,7 @@ describe('Question randomizeQuestionsByTag', () => {
   })
   test('works correctly with options!', () => {
 
-    const numberOfOptionQuestions = 31;
+    const numberOfOptionQuestions = 37;
     const testArray = questionData.questions
     const actual = randomizeQuestionsByTag(testArray, "option")
     expect(actual[0]).toHaveProperty('question')
@@ -77,9 +77,9 @@ describe('Question randomizeQuestionsByTag', () => {
   })
   test('works correctly with action!', () => {
 
-    const numberOfActionQuestions = 11;
+    const numberOfActionQuestions = 13;
     const testArray = questionData.questions
-    const actual = randomizeQuestionsByTag(testArray, "action")
+    const actual = randomizeQuestionsByTag(testArray, "will")
     expect(actual[0]).toHaveProperty('question')
     expect(actual[0]).toHaveProperty('tags')
     expect(actual.length).toEqual(numberOfActionQuestions)

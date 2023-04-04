@@ -104,7 +104,7 @@ export default {
     },
     async getActionQuestions() {
       this.actionQuestions = await this.getRandomInterviewQuestionsByTag(
-        "action"
+        "will"
       );
     },
   },
