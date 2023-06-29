@@ -4,7 +4,7 @@ import VueGtag from 'vue-gtag';
 export default ({ isDev, app }) => {
   if (!isDev) {
     Vue.use(VueGtag, {
-      config: { id: 'UA-40315314-1' }
+      config: { id: 'G-LPFH1G88LQ' }
     },
       app.router);
   } else {
